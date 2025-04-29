@@ -1,0 +1,32 @@
+.navbar{
+    width: 100%;
+    padding: 20px 70px 20px 50px!important;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar .logo img{
+    width: 300px;
+}
+.navbar .nav-item-container{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.navbar .nav-item-container .nav-item{
+    transition: 0.2s ease;
+    border-bottom: 2px solid transparent;
+}
+.navbar .nav-item-container .nav-item:hover{
+    padding: 5px 0 ;
+    border-bottom: 2px solid black;
+}
+.navbar .nav-end{
+    width: 6%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
