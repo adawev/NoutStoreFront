@@ -1,6 +1,6 @@
 .navbar{
     width: 100%;
-    padding: 20px 70px 20px 50px!important;
+    padding: 20px 120px 20px 50px!important;
     margin: 0;
     display: flex;
     justify-content: space-between;
@@ -10,7 +10,7 @@
     width: 300px;
 }
 .navbar .nav-item-container{
-    width: 40%;
+    width: 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;

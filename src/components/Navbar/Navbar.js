@@ -1,4 +1,4 @@
-import {ReactComponent as User} from '../../assets/icons/user.svg';
+    import {ReactComponent as User} from '../../assets/icons/user.svg';
 import {ReactComponent as ShoppingCard} from '../../assets/icons/shopping-cart.svg';
 import Logo from '../../assets/logo/logo.png';
 import './style.css'
@@ -15,17 +15,8 @@ function NavBar() {
             <Link to="/">
                 <div className="nav-item">Home</div>
             </Link>
-            <Link to="/about-us">
-                <div className="nav-item">About us</div>
-            </Link>
-            <Link to="/products">
-                <div className="nav-item">Products</div>
-            </Link>
-            <Link to="/faqs">
-                <div className="nav-item">Faqs</div>
-            </Link>
-            <Link to="/contact-us">
-                <div className="nav-item">Contact us</div>
+            <Link to="/">
+                <div className="nav-item">Shop</div>
             </Link>
         </div>
         <div className="nav-end">

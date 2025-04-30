@@ -1,0 +1,20 @@
+.layoutTopPicks-container {
+    background-color: #cacbcc;
+}
+
+.layoutTopPicks{
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: #ffffff;
+    padding-top: 70px;
+}
+
+.layoutTopPicks .title{
+    font-size: 64px;
+    font-weight: bold;
+    border-bottom: 1px solid;
+    width: 78%;
+    margin-left: 11%;
+    padding-bottom: 30px;
+    margin-bottom: 0;
+}

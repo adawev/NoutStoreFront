@@ -1,0 +1,14 @@
+.layoutCenter {
+    background-color: rgba(33, 37, 41, 0.24);
+    padding: 80px 100px 20px 140px;
+}
+.layoutCenter .title {
+    margin-bottom: 40px;
+    font-size: 64px;
+    font-weight: 700;
+}
+.layoutCenter .title-slogan {
+    font-size: 32px;
+    width: 70%;
+    line-height: 120%;
+}
