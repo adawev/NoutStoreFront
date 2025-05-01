@@ -1,0 +1,62 @@
+.footer-page{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0 50px 50px;
+}
+.footer-page .company-info{
+    width: 30%;
+}
+.footer-page .company-info img{
+    width: 250px;
+}
+.footer-page .company-info p{
+    margin-top: 20px;
+    color: rgba(95, 103, 107, 0.7);
+}
+.footer-page .about{
+    width: 20%;
+    padding-top: 15px;
+}
+.footer-page .about .f-item{
+    margin-top: 25px;
+}
+.footer-page .about .about-items{
+    color: rgba(95, 103, 107, 0.7);
+    transition-duration: 0.1s;
+    margin-bottom: 10px;
+}
+.footer-page .about .about-items:hover{
+    color: #000000;
+}
+
+.footer-page .title{
+    font-size: 20px;
+    font-weight: 500;
+
+}
+.footer-page .contact-us{
+    width: 30%;
+    padding-top: 15px;
+}
+.footer-page .contact-us img{
+    width: 30px;
+    margin: 15px 20px 0 0;
+    opacity: 0.7;
+}
+.footer-page .contact-us .lin-img{
+    width: 35px;
+}
+.footer-page .contact-us .google-img{
+    width: 29px;
+}
+
+.footer-page .contact-us img:hover{
+    opacity: 0.5;
+}
+.footer-page .contact-us .txt-info{
+    color: rgba(95, 103, 107, 0.7);
+}
+.footer-page .contact-us .f-info-txt{
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
