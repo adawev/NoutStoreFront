@@ -1,5 +1,5 @@
 .productList{
-    padding:25px 50px;
+    padding: 25px 150px;
 }
 
 .productList .list-wrapper{
@@ -8,13 +8,12 @@
     gap: 50px;
 }
 .productList .list-wrapper .card{
-    width: 200px;
     cursor: pointer;
-    flex: 0 0 22.3%;
+    flex: 0 0 30.6%;
 }
 .productList .title{
-    font-size: 32px;
-    font-weight: 600;
+    font-size: 48px;
+    font-weight: 700;
     margin-bottom: 5px;
 }
 .productList .desc{

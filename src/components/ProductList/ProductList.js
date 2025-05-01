@@ -7,6 +7,7 @@ import Lapto5 from '../../assets/photos/laptop5.avif'
 import Lapto6 from '../../assets/photos/laptop6.avif'
 import Lapto7 from '../../assets/photos/laptop7.avif'
 import Lapto8 from '../../assets/photos/laptop8.avif'
+import Lapto9 from '../../assets/photos/laptop9.avif'
 
 function ProductList(){
     return (<div className="productList">
@@ -50,6 +51,11 @@ function ProductList(){
             </div>
             <div className="card">
                 <img src={Lapto8} alt=""/>
+                <h3>Compact Gaming Laptop</h3>
+                <p>849,000 sum</p>
+            </div>
+            <div className="card">
+                <img src={Lapto9} alt=""/>
                 <h3>Compact Gaming Laptop</h3>
                 <p>849,000 sum</p>
             </div>

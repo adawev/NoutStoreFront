@@ -1,0 +1,33 @@
+.aboutUsInfo {
+    padding: 80px;
+}
+.aboutUsInfo .top{
+    display: flex;
+    justify-content: space-between;
+}
+.aboutUsInfo .top .title{
+    font-size: 64px;
+    font-weight: 700;
+}
+.aboutUsInfo .top img{
+    width: 15%;
+}
+.aboutUsInfo .end{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    padding-bottom: 50px;
+}
+.aboutUsInfo .end .info{
+    width: 50%;
+    margin-top: 30px;
+}
+.aboutUsInfo .end .info .title{
+    font-size: 16px;
+}
+.aboutUsInfo .end .info .desc{
+    font-size: 20px;
+}
+.aboutUsInfo .end img{
+    width: 30%;
+}
