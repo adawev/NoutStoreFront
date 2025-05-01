@@ -1,6 +1,6 @@
 .layoutCenter {
-    background-color: rgba(33, 37, 41, 0.24);
-    padding: 80px 100px 20px 140px;
+    background-color: rgba(33, 37, 41, 0.12);
+    padding: 80px 100px 80px 140px;
 }
 .layoutCenter .title {
     margin-bottom: 40px;
@@ -11,4 +11,17 @@
     font-size: 32px;
     width: 70%;
     line-height: 120%;
+}
+.layoutCenter .wrapperInfo{
+    width: 80%;
+    margin: 80px 0 0 auto;
+}
+.layoutCenter .wrapperInfo p{
+    width: 70%;
+}
+.layoutCenter .wrapperInfo button{
+    margin: 25px 0 30px 0;
+}
+.layoutCenter .wrapperInfo img{
+    width: 100%;
 }

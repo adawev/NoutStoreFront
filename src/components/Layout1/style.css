@@ -22,13 +22,16 @@
     font-size: 20px;
     margin-top: -20px;
 }
-.LayoutFirst .information-container button:hover{
+.LayoutFirst .information-container button{
+    margin-top: 30px;
+
+}
+.button-styled-transparent:hover{
     background-color: #212529;
     color: #fff;
     border-color: #212529;
 }
-.LayoutFirst .information-container button{
-    margin-top: 30px;
+.button-styled-transparent{
     background-color: transparent;
     border: 1px solid;
     border-radius: 50px;

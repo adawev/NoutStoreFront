@@ -1,5 +1,6 @@
 import LayoutPhoto from '../../assets/photos/layout1.png'
 import './style.css'
+import {Link} from "react-router-dom";
 
 function Layout1(){
     return <div className="LayoutFirst">
@@ -7,7 +8,7 @@ function Layout1(){
         <div className={'information-container'}>
             <p>Explore Our Collection</p>
             <p>Latest Laptops for Tech Enthusiasts</p>
-            <button>Shop Now</button>
+            <Link to={'/shop'}><button className={'button-styled-transparent'}>Shop Now</button></Link>
         </div>
     </div>
 }
