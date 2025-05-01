@@ -16,8 +16,8 @@ function Footer(){
             <p className={'title'}>About</p>
             <Link to={'/'}><p className={'about-items f-item'}>Home</p></Link>
             <Link to={'/shop'}><p className={'about-items'}>Shop</p></Link>
-            <Link to={'/faq'}><p className={'about-items'}>FAQs</p></Link>
-            <Link to={'/stories'}><p className={'about-items'}>Stories</p></Link>
+            <Link to={'/services'}><p className={'about-items'}>Services</p></Link>
+            <Link to={'/about-us'}><p className={'about-items'}>About us</p></Link>
         </div>
         <div className="contact-us">
             <p className={'title'}>Contact us</p>

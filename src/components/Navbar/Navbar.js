@@ -18,6 +18,12 @@ function NavBar() {
             <Link to="/shop">
                 <div className="nav-item">Shop</div>
             </Link>
+            <Link to="/services">
+                <div className="nav-item">Services</div>
+            </Link>
+            <Link to="/about-us">
+                <div className="nav-item">About us</div>
+            </Link>
         </div>
         <div className="nav-end">
             <Link to={'/shopping-cart'}>
