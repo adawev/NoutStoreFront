@@ -15,7 +15,7 @@ function Footer(){
         <div className="about">
             <p className={'title'}>About</p>
             <Link to={'/'}><p className={'about-items f-item'}>Home</p></Link>
-            <Link to={'/shop'}><p className={'about-items'}>Shop</p></Link>
+            <Link to={'/shop/products'}><p className={'about-items'}>Shop</p></Link>
             <Link to={'/services'}><p className={'about-items'}>Services</p></Link>
             <Link to={'/about-us'}><p className={'about-items'}>About us</p></Link>
         </div>

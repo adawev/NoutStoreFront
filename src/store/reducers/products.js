@@ -6,6 +6,7 @@ const slice = createSlice({
     name: 'products',
     initialState: {
         products: [],
+        productDetail: null,
     },
     reducers: {
         getFromResponse: (state, action) => {
@@ -15,6 +16,9 @@ const slice = createSlice({
             state.products.unshift(action.payload);
             toast.success("Successfully added product!");
         },
+        getProductDetailSuccess: (state, action) => {
+            state.productDetail = action.payload;
+        },
         errRes:
             (state, action) => {
                 toast.error("Xatolik mavjud!");
@@ -22,7 +26,7 @@ const slice = createSlice({
     }
 });
 
-export const { getFromResponse,saveSuccess, errRes} = slice.actions;
+export const { getFromResponse,saveSuccess, getProductDetailSuccess , errRes} = slice.actions;
 
 export const getAllProducts = () => apiCall({
     url: "/product",
@@ -35,6 +39,12 @@ export const saveProduct = (data) => apiCall({
     method: "post",
     data: data,
     onSuccess: saveSuccess,
+    onFail: errRes,
+});
+export const getProductById = (id) => apiCall({
+    url: `/product/${id}`,
+    method: "get",
+    onSuccess: getProductDetailSuccess,
     onFail: errRes,
 });
 export default slice.reducer;
