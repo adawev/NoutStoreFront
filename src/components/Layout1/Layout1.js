@@ -8,7 +8,7 @@ function Layout1(){
         <div className={'information-container'}>
             <p>Explore Our Collection</p>
             <p>Latest Laptops for Tech Enthusiasts</p>
-            <Link to={'/shop'}><button className={'button-styled-transparent'}>Shop Now</button></Link>
+            <Link to={'/shop/products'}><button className={'button-styled-transparent'}>Shop Now</button></Link>
         </div>
     </div>
 }
