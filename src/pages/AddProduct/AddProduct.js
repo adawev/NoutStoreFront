@@ -7,24 +7,9 @@ import {saveProduct} from "../../store/reducers/products";
 
 function AddProduct({saveProduct}){
     const { handleSubmit, reset, register} = useForm();
-    const [value, setValue] = useState(2);
+    const [value, setValue] = useState(0);
     const [hover, setHover] = useState(-1);
 
-    const labels = {
-        0.5: 'Useless',
-        1: 'Useless+',
-        1.5: 'Poor',
-        2: 'Poor+',
-        2.5: 'Ok',
-        3: 'Ok+',
-        3.5: 'Good',
-        4: 'Good+',
-        4.5: 'Excellent',
-        5: 'Excellent+',
-    };
-    function getLabelText(value) {
-        return `${value} Star${value !== 1 ? 's' : ''}, ${labels[value]}`;
-    }
 
     const onSubmit = async (data) => {
         const formData = new FormData();
@@ -35,8 +20,8 @@ function AddProduct({saveProduct}){
         formData.append("rating", value);
 
         try {
-            await saveProduct(formData); // redux thunk promise return qiladi deb faraz qilamiz
-            reset(); // faqat agar dispatch muvaffaqiyatli bo‘lsa
+            await saveProduct(formData);
+            reset();
         } catch (e) {
             console.error("Saqlashda xatolik", e);
         }
@@ -56,9 +41,8 @@ function AddProduct({saveProduct}){
             <Rating
                 name="hover-feedback"
                 value={value}
-                precision={0.5}
+                precision={1}
                 id={'rating'}
-                getLabelText={getLabelText}
                 onChange={(event, newValue) => {
                     setValue(newValue);
 

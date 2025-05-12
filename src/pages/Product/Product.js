@@ -35,7 +35,7 @@ function Product({product, getProductById}) {
                     <Rating name="read-only" value={product.grade_count} readOnly/>
                     <br/>
                     <br/>
-                    <button className={'btn btn-primary'} style={{width: '60%', borderRadius: '5px'}}>Add to Cart
+                    <button className={'btn'} style={{width: '60%', borderRadius: '5px', background: '#212529', color: '#fff'}}>Add to Cart
                     </button>
 
                     <div className="socials"
