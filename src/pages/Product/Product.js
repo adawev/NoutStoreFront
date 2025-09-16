@@ -24,6 +24,7 @@ function Product({product, getProductById}) {
                     <img
                         src={`http://localhost:8080/uploads/${product.photos[0].name}`}
                         alt={product.name}
+                        style={{width: "500px", height: '500px'}}
                     />
                 ) : (
                     <div>Downloading...</div>
