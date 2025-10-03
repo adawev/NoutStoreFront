@@ -6,7 +6,7 @@ export const api = ({ dispatch }) => next => action => {
     const { url, method, data, onSuccess, onFail } = action.payload;
 
     axios({
-        baseURL: "http://localhost:8080/api",
+        baseURL: "http://172.105.83.81:8080/api",
         url,
         method,
         data,
